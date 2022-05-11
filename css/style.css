@@ -1,0 +1,594 @@
+@media screen and (min-width: 768px){
+      /* body {    
+   
+           max-width: 1080px;     
+           min-width: 960px;  
+           margin: 0 auto 0 auto; 
+   
+     / */
+
+/* header */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+.logo{
+    background-image: url("../img/estra_logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 40px;
+    padding: 1px 5px 5px 10px;
+    margin-left: 20px;
+}
+.menu{
+    font-size: 15px;
+    padding: 25px 20px 20px 20px;
+    display: flex;
+}
+.menu-item:not(last-child){
+    padding-right: 20px;
+}
+.menu-item{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(27, 26, 26);
+}
+
+/* main */
+/* first */
+.first-item1{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    
+
+}
+
+
+.img{
+    
+    width: 50%;
+    height: 500px;
+    float: right; 
+    margin-top: 10px;   
+    
+
+}
+.picture {
+    background-image: url("../img/firstview.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 100%;
+    
+
+}
+
+.message{
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    color: rgb(161, 33, 131);
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    padding: 40px;
+    line-height: 80px;
+    
+}
+.message-growth ,.small-message-span{
+    color: rgb(21, 185, 177);
+}
+ 
+.small-item{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.small-message{
+    color: rgb(161, 33, 131); 
+    padding: 20px 0;
+    
+    font-size: 30px;
+}
+small{
+    font-size: 20px;
+    
+}
+
+
+.first-item2{
+    
+   margin-left: 150px; 
+}
+
+.h2news{
+    color: rgb(161, 33, 131);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    padding: 10px 0 5px 20px;
+}
+
+.newinfomation{
+    font-size: 40px;
+    padding: 20px;
+}
+
+
+
+.chart-border{
+    border-top: 3px  rgb(170, 155, 155) solid;
+    border-bottom: 3px  rgb(170, 155, 155) solid;
+    width: 90%;
+    padding-bottom: 50px;
+    
+}
+.chart{
+    
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+    border-bottom: 1px rgb(170, 164, 164) solid;
+}
+
+.date{
+ padding: 20px;
+ margin-right: auto;
+ 
+}
+
+.form-news{
+  background-color: rgb(161, 33, 131);
+  border-radius:  50px;
+  color: white;
+  font-size: 20px;
+  margin-right: auto;
+  padding: 20px 50px;
+  text-align: center;
+    }    
+    
+.writing{
+    padding: 20px 5px;
+}
+
+
+/*second*/
+
+.second{
+    width:100%;
+    height: 800px;
+    background-color: rgb(204, 204, 204);
+    margin: 100px 0;
+}
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-title{
+
+    padding: 50px;
+    text-align: center;
+}
+.h2about{
+    color: rgb(161, 33, 131);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    padding: 10px 0 5px 20px;
+}
+
+.h1title{
+    font-size: 30px;
+}
+
+/*  */
+
+.about-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+.message2{
+    font-size: 20px;
+    width: 50%;
+    padding: 10px 20px 0 0;
+    margin-right: 50px;
+}
+
+
+.message2-p{
+    line-height: 40px;
+    padding: 20px;
+}
+
+.img2{
+    width: 50%;
+    float:right;
+    margin-top: 20px;
+    
+}
+.picture2{
+    background-image: url(../img/about.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    float:right;
+    margin-left: 50px;
+}
+/* third */
+.third{
+    margin-top: 50px;
+    width: 100%;
+    height: 800px
+
+}
+
+.third-item{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.h2service{
+    color: rgb(161, 33, 131);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    padding: 10px 10px 10px 30px;
+    }
+    
+.service-content{
+    font-size: 30px;
+    padding: 10px 20px 40px;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 3fr 1fr 2fr;
+}
+
+.box1{
+    background-color: rgb(161, 12, 127);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    position: relative;
+    
+}
+.box1>.illustration{
+    position: absolute;
+    top: 100px ;
+    background-position: center;
+}
+.box2{
+    background-color: rgb(161, 12, 127);
+    grid-column: 1/2;
+    grid-row: 2/3;
+    line-height: 40px;
+    
+}
+.box2 > .education >.p-education{
+    text-align: center;
+}
+.box2 > .education >.sample{
+    padding: 40px;
+}
+
+.box3{
+    background-color: rgb(134, 72, 120);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: relative;
+}
+
+.box3 > .illustration{
+    position: absolute;
+    top: 60px;
+    background-position: center;
+    
+}
+
+.box4{
+    background-color: rgb(150, 100, 138);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    position: relative;   
+}
+
+.box4 > .illustration{
+    position: absolute;
+    top: 60px;
+    background-position: center;
+
+}
+
+.box5{
+    background-color: rgb(134, 72, 120);
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding: 40px 10px 0;
+    
+}
+
+
+.box5 > .education >.sample{
+    line-height: 35px;
+    padding-top: 10px;
+}
+
+.box6{
+    background-color: rgb(150, 100, 138);
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 40px 10px 0;
+    
+}
+
+.box6 > .education >.sample{
+    line-height: 35px;
+    padding-top: 10px;
+}
+
+
+.illustration {
+    background-image: url(../img/service__first.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+.p-education{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+.sample{
+    color: white;
+    font-size: 20px;
+
+}
+
+/* fourth */
+.fourth{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(204, 204, 204);
+    
+}
+
+
+.blog{ 
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+
+
+.h2blog{
+    color: rgb(161, 33, 131);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    padding: 10px 10px 10px 30px;
+
+}
+
+.blog-title{
+    font-size: 30px;
+    padding: 10px 20px 40px;
+}  
+
+.blog-card-rows{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-card{
+   width: 350px;
+   height: 400px;
+   background-color: white;
+   border-radius: 10px;
+   position: relative;
+   
+}
+
+.blog-card-title{
+    background-color: rgb(161, 33, 131);
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;   
+    padding: 20px 10px 5px;
+    border-radius: 10px 0 0 0;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    
+}
+
+.picture4{
+    background-image: url(../img/blog__first.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+
+}
+
+
+.message4{
+    font-size: 25px;
+    padding: 10px 20px 0;
+    
+}
+
+.foot4{
+     font-size: 20px;
+     display: flex;
+     justify-content: space-between;
+     padding: 30px 5px 0;
+}
+
+.button{
+     background-color: white;
+     border: 1px rgb(161, 33, 131) solid;
+     border-radius: 30px;
+     padding: 20px;
+     width: 250px;
+     margin: 100px auto;
+     text-align: center;
+}
+.button-memo {
+    font-size: 25px;
+    color:rgb(161, 33, 131) ;
+    
+}
+
+/* fifth */
+
+.fifth {
+    width: 100%;
+    height: 800px;
+}
+
+.company{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.h2company{
+    color: rgb(161, 33, 131);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    padding: 10px 10px 10px 30px
+}
+.company-title{
+    font-size: 30px;
+    padding: 10px 20px 40px
+
+}   
+
+.table-form{
+  font-size: 30px;
+  width: 100%;
+}
+
+.table-header{
+   background-color: rgb(204, 204, 204);
+   padding: 30px;
+   text-align: left ;
+   border: 1px rgb(105, 101, 101) solid;
+
+} 
+.table-cell{
+   padding: 30px;
+   border: 1px rgb(105, 101, 101) solid;
+
+}
+
+/* sixth */
+
+.sixth{
+    width:100%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.picture-item{
+    
+   height: 400px;
+   display: flex;
+   
+}
+
+.picture6-1{
+    background-image: url(../img/recruit.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.recruit,.interview{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.picture6-2{
+    background-image: url(../img/interview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.inquiry{
+     font-size: 30px;
+     text-align: center;
+
+}
+.stripe1{
+    border-left: 5px rgb(161, 33, 131) solid;
+    width: 5px;
+    height: 80px;
+    margin: 30px auto;
+}
+
+.inquiry-button{
+   margin: 10px auto; 
+   width: 400px; 
+   height: 80px;
+   text-align: center;
+   box-shadow: 0 20px rgb(73, 10, 73);
+   border-radius: 70px;
+   background: linear-gradient(90deg,#e9319c, #ad08ad);;
+   padding: 30px;
+   position: relative;
+   margin: 20px auto;
+
+
+}
+
+.inquiry-button::before{
+    content: "";
+    position: absolute;
+    top:30%;
+    left:30px ;
+    background-image: url(../img/mailicon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+
+}
+
+.inquiry-button-memo{
+    font-size: 30px;
+    color: white;
+    margin-top: 25px;
+}
+
+
+/* footer */
+.footer-memo{
+ background-color: rgb(204, 204, 204);
+ text-align: center;
+ font-size: 30px;
+ padding: 50px 10px;
+
+}
+
+}
